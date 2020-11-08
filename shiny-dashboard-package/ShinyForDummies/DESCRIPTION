@@ -1,0 +1,35 @@
+Package: ShinyForDummies
+Title: Shiny Golem Testing
+Version: 0.0.0.9000
+Authors@R: person('Javier', 'Orraca', email = 'orraca.javier@gmail.com', role = c('cre', 'aut'))
+Description: A package designed to use Golem for Shiny app creation. Golem is an opinionated framework for building production-grade shiny applications.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinydashboardPlus,
+    shinyjs,
+    fable,
+    feasts,
+    fresh,
+    fs,
+    dplyr,
+    purrr,
+    stringr,
+    tidyr,
+    tidyselect,
+    thinkr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
